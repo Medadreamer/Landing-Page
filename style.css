@@ -34,10 +34,62 @@ nav {
 .logo {
     font-weight: bold;
     font-size: 18px;
+    color: #F9FAF8;
 }
 
 a {
-    color: #fff;
+    color: #E5E7EB;
     text-decoration: none;
     font-size: 14px;
 }
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    color: #fff;
+}
+
+.hero_content {
+    display: flex;
+    align-items: center;
+    margin: 2em auto;
+    height: 18em;
+}
+
+h1, p, button {
+    margin: 5px auto;
+}
+
+.hero_text {
+    width: 50%;
+}
+
+.hero_text_title {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.hero_text_subtext {
+    width: 80%;
+    margin-left: 0;
+    font-size: 15px;
+    color: #E5E7EB;
+}
+
+.hero_img{
+    height: 80%;
+    width: 60%;
+    background-color: #707070;
+    display: flex;
+    align-items: center;
+}
+
+.hero_text_button {
+    height: 2em;
+    background-color: #3882F6;
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+}
+
